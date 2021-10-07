@@ -1,5 +1,5 @@
 #Acknowledgements
-This library is free software based on dayjs. We just make it simple for thailand format display.
+This library is free software based on dayjs. We just make it simple for thailand format display and TS support.
 
 ## Getting Started
 
