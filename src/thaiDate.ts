@@ -6,7 +6,6 @@ const thaiDate = (date: Date) => {
   if (!date) {
     date = new Date()
   }
-
   return dayjs(date).locale('th-TH').format('DD/MM/BBBB')
 }
 
