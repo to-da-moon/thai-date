@@ -28,8 +28,8 @@ const thaiTime = (date: Date) => {
 
     case 0:
       return 'อาทิตย์'
-
   }
+  return 'Invalid Date'
 
 }
 
