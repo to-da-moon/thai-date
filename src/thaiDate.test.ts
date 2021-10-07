@@ -1,5 +1,4 @@
 import thaiDate from './thaiDate'
-import thaiTime from "./thaiTime";
 
 
 jest.autoMockOff()
@@ -11,7 +10,7 @@ describe('Expected Success', () => {
 
 describe('Expected Fail', () => {
     test('Invalid Date', () => {
-        expect(thaiTime(new Date('invalid Date'))).toBe('Invalid Date')
+        expect(thaiDate(new Date('invalid Date'))).toBe('Invalid Date')
     })
 })
 
