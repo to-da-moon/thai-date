@@ -14,4 +14,4 @@ jobs:
       - run: npx tsc
       - uses: JS-DevTools/npm-publish@v1
         with:
-          token: ${{ production.NPM_TOKEN }}
+          token: ${{ secrets.NPM_TOKEN }}
