@@ -1,14 +1,18 @@
-#Acknowledgements
+## Acknowledgements
 This library is free software based on dayjs. We just make it simple for thailand format display and TS support.
 
 ## Getting Started
 
 This library consists of 3 functions thaiDate, thaiTime, and thaiDay 
 
-#installation
+## Installation
 using yarn
 ```
 yarn add @to-da-moon/thai-date
+```
+using npm
+```
+npm i @to-da-moon/thai-date
 ```
 
 ## Example Usage
@@ -30,5 +34,6 @@ thaiDay(new Date())
 // return จันทร์
 ```
 
-#Plan
+## Plan
+- [x] get day of the week in Thai language
 - [ ] We will make more simple case for thai people formatting which will include the date in thai language
