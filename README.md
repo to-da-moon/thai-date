@@ -35,5 +35,5 @@ thaiDay(new Date())
 ```
 
 ## Plan
-- [x] get day of the week in Thai language
+- [x] get day of the week in Thai language [done]
 - [ ] We will make more simple case for thai people formatting which will include the date in thai language
