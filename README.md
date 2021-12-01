@@ -24,7 +24,7 @@ thaiDate(new Date())
 ```
 
 ```
-thaiDate(new Date())
+thaiTime(new Date())
 // return thai time  
 // e.g. Thu, 07 Oct 2021 11:00:00 GMT -> 18:00
 ```
